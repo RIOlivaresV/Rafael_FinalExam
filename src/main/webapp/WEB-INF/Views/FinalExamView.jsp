@@ -62,8 +62,8 @@
         <tr>
             <td>${saving.getCustno()}</td>
             <td>${saving.getCustname()}</td>
-            <td>${saving.getCdep()}</td>
-            <td>${saving.getNyears()}</td>
+            <td>$${saving.getCdep()}</td>
+            <td>$${saving.getNyears()}</td>
             <td>${saving.getSavtype()}</td>
             <td><a class="btn btn-primary" href="add?id=${saving.getCustno()}">Edit</a></td>
             <td><a class="btn btn-secondary" href="delete?id=${saving.getCustno()}">Delete</a></td>
